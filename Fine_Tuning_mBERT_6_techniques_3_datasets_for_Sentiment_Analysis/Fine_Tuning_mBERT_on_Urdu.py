@@ -816,3 +816,6 @@ print("✅ Validation:", val_results)
 test_results = trainer.evaluate(test_ds)
 print("✅ Test:", test_results)
 
+# mBERT showed maximum accuracy with full-fine-tuning with 100% parameters fine-tunint,
+# LORA is best in all PEFT techniques(Max accuracy with 1.33% parameters tuning)
+#while IA3 is best for edge deployement with only .3% parameters tuning
